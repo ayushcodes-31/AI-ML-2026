@@ -1,0 +1,8 @@
+a=[1,2,3,4,5,6]
+e=o=0
+for i in range(len(a)):
+    if a[i]%2==0:
+        e+=1
+    else:
+        o+=1
+print(e,o)
